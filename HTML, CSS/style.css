@@ -1,0 +1,113 @@
+.body {
+    background-color: #FEFAE0;
+}
+
+.tnum1 {
+    width: 100%;
+    background-color: #283618;
+    font-size: 36px;
+    font: #FEFAE0;
+}
+
+.jumbotron {
+    background-color: #DDA15E;
+    font-size: 56px;
+    font-family: 'Bakbak One', cursive;
+    text-align: center; 
+}
+
+.container-fluid {
+    background-color: #FEFAE0;
+}
+
+.carousel-inner {
+   position: relative;
+   min-width: 100%;
+   height: 750px;
+}
+
+#h1 {
+    text-align: center;
+    font-family: 'Bakbak One';
+    font-size: 80px;
+}
+
+#p1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+#img {
+    max-width: 100%;
+}
+
+#sub-1 {
+    font-size: 35px;
+}
+
+#sub-2 {
+    font-size: 35px;
+}
+
+#sub-3 {
+    font-size: 35px;
+}
+
+.form-control {
+    max-width: 35%;
+    
+}
+
+#buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(0, 0, 0, 1);
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:linear-gradient(rgba(40, 54, 24, 1), rgba(92, 116, 87, 1));
+  }
+  
+  #buttonClass:hover {
+    background: linear-gradient(rgba(92, 116, 87, 1), rgba(40, 54, 24, 1));
+  }
+
+  .col-md-6 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .imgDestino {
+    height: 90%;
+    width: 70%;
+    margin: 10px;
+    /*background-image: url("https://images.unsplash.com/photo-1578355809762-1a66bac2595c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1054&q=80"); */
+    background-position: center; 
+    background-size: cover;
+  }
+
+  .card-block {
+    background-color: #FEFAE0;
+    
+  }
+
+  
+
+  
+
+
+
+
+
+
+
+    

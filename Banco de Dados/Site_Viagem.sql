@@ -1,0 +1,49 @@
+use site_viagem
+
+CREATE TABLE Cliente 
+( 
+Id_Cliente INT PRIMARY KEY,
+ Nome VARCHAR(50),  
+ Email VARCHAR(100),  
+ CPF INT,   
+); 
+
+CREATE TABLE Destino 
+( 
+ Id_Viagem INT PRIMARY KEY,  
+ Campo VARCHAR(250),  
+ Acampamento VARCHAR(250),  
+ Praia VARCHAR(250),  
+ idCliente INT,  
+); 
+
+ALTER TABLE Destino ADD FOREIGN KEY(idCliente) REFERENCES Cliente (idCliente)
+
+SELECT * FROM Cliente
+
+SELECT * FROM Destino
+
+INSERT INTO Cliente VALUES (1,'JANE DOE','EMAIL@EMAIL.COM',123456)
+INSERT INTO Cliente VALUES (2,'JOHN DOE','EMAIL@EMAIL.COM',654321)
+INSERT INTO Cliente VALUES (3,'MARY DOE','EMAIL@EMAIL.COM',123789)
+
+UPDATE Cliente
+SET Id_Cliente = 001
+WHERE Id_Cliente = 1
+
+
+INSERT INTO Destino VALUES (11,'MONTE VERDE','PORTO SEGURO','OURO PRETO',2)
+
+UPDATE Destino
+SET Acampamento = 'OURO PRETO'
+WHERE Acampamento = 'PORTO SEGURO'
+
+UPDATE Destino
+SET Praia = 'PORTO SEGURO'
+WHERE Praia = 'OURO PRETO'
+
+INSERT INTO Destino VALUES (16,'','OURO PRETO','',3)
+
+INSERT INTO Destino VALUES (21,'MONTE VERDE','OURO PRETO','',1)
+
+ALTER TABLE Cliente ADD Senha INT(8)
