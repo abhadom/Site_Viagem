@@ -1,4 +1,4 @@
-# Site_Viagem
+# Code Paradise ✨
 
 Esta é a Atividade Prática do Módulo 3.
 
